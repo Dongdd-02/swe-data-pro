@@ -1,18 +1,7 @@
-# 中文 SWE 失败恢复数据：GitHub 双人协作包
-
-本包回退到 `swe_sft_4976_zh_failure_repair_focused_v2_20261103`。它不是 17.59% 的 dense 工具回显裁剪版，也不是只合并 0.0173% 搜索调用版。
 
 ## 一、协作分工
 
-把 Part A、Part B 和共享代码放入**同一个 GitHub 仓库**，由 GitHub 统一维护版本、Issue、Pull Request 和审阅记录：
-
-- **同事负责 Part A**：修改或审阅 `parts/part_A/`。
-- **你负责 Part B**：修改或审阅 `parts/part_B/`。
-- 共同维护 `code/`、`manifests/`、根目录 README 和审计资料；涉及这些共享文件的改动走 Pull Request，不要直接覆盖对方分支。
-- 两人都先从同一个 `focused-v2-baseline` 标签或保护分支开始。建议分支为 `review/part-a` 和 `review/part-b`，完成后分别提交 PR 到 `main`。
-- 两边不要直接编辑同一个合并后的完整 JSONL；只修改自己负责的 part，避免整文件冲突。
-
-推荐仓库结构：
+仓库结构：
 
 ```text
 parts/
