@@ -1,0 +1,47 @@
+{
+  "status": "structural_audit_only_semantic_replay_pending",
+  "counts": {
+    "records": 4976,
+    "removed_actions": 6726,
+    "summaries": 2159,
+    "ordinary_numbered_code_lines_checked": 180676,
+    "source_content_chars": 340304372,
+    "candidate_content_chars": 318805727,
+    "unknown_failure_records_untouched": 1251,
+    "large_previews_replaced": 1731,
+    "large_preview_chars": 20025831,
+    "large_preview_numbered_lines": 527803
+  },
+  "message_content_reduction_pct": 6.3175,
+  "removed_action_reduction_pct": 5.2261,
+  "audit_errors": 0,
+  "error_examples": [],
+  "large_preview_examples": [
+    {
+      "record_id": "swe_smith_core_train_0035_4845827af367",
+      "action_index_zero_based": 2,
+      "path": "/testbed/tornado/web.py"
+    },
+    {
+      "record_id": "swe_smith_core_train_0093_629027b12070",
+      "action_index_zero_based": 2,
+      "path": "/testbed/pydantic/type_adapter.py"
+    },
+    {
+      "record_id": "swe_smith_core_train_0093_629027b12070",
+      "action_index_zero_based": 7,
+      "path": "/testbed/pydantic/_internal/_typing_extra.py"
+    },
+    {
+      "record_id": "swe_smith_core_train_0116_9ed7de1ff92d",
+      "action_index_zero_based": 2,
+      "path": "/testbed/voluptuous/validators.py"
+    },
+    {
+      "record_id": "swe_smith_core_train_0216_23c9d71b5d36",
+      "action_index_zero_based": 1,
+      "path": "/testbed/pyquery/pyquery.py"
+    }
+  ],
+  "limitation": "Large abbreviated previews may contain source context not repeated in the targeted read; this candidate needs manual semantic review and repository replay, not formal Pangu SFT approval."
+}

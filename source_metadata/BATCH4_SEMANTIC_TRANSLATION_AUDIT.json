@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "queue_items": 53472,
+  "translation_rows": 53472,
+  "mapping_rows": 74800,
+  "translation_coverage_errors": [],
+  "translation_quality_errors": [],
+  "split_counts": {
+    "train": {
+      "source_records": 2451,
+      "final_records": 2451,
+      "translated_message_occurrences": 66764,
+      "preserved_too_long_message_occurrences": 524
+    },
+    "validation": {
+      "source_records": 139,
+      "final_records": 139,
+      "translated_message_occurrences": 3707,
+      "preserved_too_long_message_occurrences": 31
+    },
+    "test": {
+      "source_records": 135,
+      "final_records": 135,
+      "translated_message_occurrences": 3743,
+      "preserved_too_long_message_occurrences": 31
+    }
+  },
+  "record_validation_errors": [],
+  "tool_message_changes": 0,
+  "tool_call_changes": 0,
+  "unexpected_message_changes": [],
+  "preserved_long_message_changes": [],
+  "scenario_family_split_leakage": 0,
+  "source_content_hash_split_leakage": 0,
+  "duplicate_final_message_signatures": 0
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed_collaboration_split_audit",
+  "records": 4976,
+  "counts": {
+    "part_A/train.jsonl": 2290,
+    "part_A/validation.jsonl": 115,
+    "part_A/test.jsonl": 120,
+    "part_B/train.jsonl": 2184,
+    "part_B/validation.jsonl": 136,
+    "part_B/test.jsonl": 131
+  },
+  "errors": [],
+  "error_count": 0
+}

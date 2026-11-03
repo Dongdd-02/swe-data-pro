@@ -1,0 +1,63 @@
+{
+  "status": "extended_increment_selected",
+  "selection_version": "pangu_swe_smith_extended_increment_v1",
+  "source": "SWE-bench/SWE-smith",
+  "prior_sources": [
+    {
+      "dir": "artifacts\\swe_smith_pangu_filter\\core",
+      "records": 811
+    },
+    {
+      "dir": "artifacts\\swe_smith_pangu_rescreen\\selected",
+      "records": 500
+    },
+    {
+      "dir": "artifacts\\swe_smith_pangu_rescreen_batch2\\selected",
+      "records": 497
+    },
+    {
+      "dir": "artifacts\\swe_smith_pangu_rescreen_batch3_manual_review\\selected",
+      "records": 1000
+    }
+  ],
+  "prior_key_sizes": {
+    "instance_id": 2289,
+    "near_duplicate_group": 2280,
+    "content_hash": 2308
+  },
+  "filter_decision_rows": 8597,
+  "source_rows_by_tier": {
+    "review": 5830,
+    "excluded": 1956
+  },
+  "prior_overlap_rows": 3413,
+  "unresolved_source_rows": 0,
+  "remaining_before_internal_dedup": 4025,
+  "internal_dedup_skips": 1300,
+  "selected_records": 2725,
+  "selected_split_counts": {
+    "train": 2451,
+    "validation": 139,
+    "test": 135
+  },
+  "selected_by_filter_tier": {
+    "review": 1630,
+    "excluded": 1095
+  },
+  "selected_by_group": {
+    "extended_review_requires_replay": 1630,
+    "extended_filter_excluded_requires_replay": 1095
+  },
+  "triple_dedup_keys": [
+    "instance_id",
+    "near_duplicate_group",
+    "content_hash"
+  ],
+  "candidate_requires_replay": true,
+  "production_admitted": false,
+  "notes": [
+    "Existing 2251 records are excluded by instance_id, near_duplicate_group, or content_hash.",
+    "Review rows and previously excluded rows are kept in separate explicit review groups.",
+    "extended_filter_excluded_requires_replay is lower confidence and must not be treated as core evidence."
+  ]
+}

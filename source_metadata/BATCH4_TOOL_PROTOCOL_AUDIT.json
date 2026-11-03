@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "source_dir": "sft_vlm\\pulsar_recovery_sft\\artifacts\\swe_smith_pangu_pulsar_zh_staging\\rescreen_batch4_extended_v0",
+  "target_dir": "sft_vlm\\pulsar_recovery_sft\\artifacts\\swe_smith_pangu_pulsar_zh_staging\\rescreen_batch4_extended_pulsar",
+  "splits": {
+    "train": {
+      "source_records": 2451,
+      "target_records": 2451,
+      "calls": 61422,
+      "mapping_counts": {
+        "bash.-->Bash": 28381,
+        "str_replace_editor.view->Read": 14811,
+        "str_replace_editor.create->Write": 7043,
+        "str_replace_editor.str_replace->Edit": 10797,
+        "str_replace_editor.str_replace->Bash": 25,
+        "str_replace_editor.view->Bash": 364,
+        "str_replace_editor.insert->Bash": 1
+      }
+    },
+    "validation": {
+      "source_records": 139,
+      "target_records": 139,
+      "calls": 3396,
+      "mapping_counts": {
+        "bash.-->Bash": 1611,
+        "str_replace_editor.view->Read": 791,
+        "str_replace_editor.create->Write": 404,
+        "str_replace_editor.str_replace->Edit": 572,
+        "str_replace_editor.view->Bash": 18
+      }
+    },
+    "test": {
+      "source_records": 135,
+      "target_records": 135,
+      "calls": 3429,
+      "mapping_counts": {
+        "bash.-->Bash": 1573,
+        "str_replace_editor.view->Read": 867,
+        "str_replace_editor.create->Write": 363,
+        "str_replace_editor.str_replace->Edit": 602,
+        "str_replace_editor.view->Bash": 22,
+        "str_replace_editor.str_replace->Bash": 2
+      }
+    }
+  },
+  "errors": [],
+  "source_tool_counts": {
+    "bash": 31565,
+    "str_replace_editor": 36682
+  },
+  "target_tool_counts": {
+    "Bash": 31997,
+    "Read": 16469,
+    "Write": 7810,
+    "Edit": 11971
+  },
+  "mapping_counts": {
+    "bash.-->Bash": 31565,
+    "str_replace_editor.view->Read": 16469,
+    "str_replace_editor.create->Write": 7810,
+    "str_replace_editor.str_replace->Edit": 11971,
+    "str_replace_editor.str_replace->Bash": 27,
+    "str_replace_editor.view->Bash": 404,
+    "str_replace_editor.insert->Bash": 1
+  },
+  "target_schema_errors": [],
+  "source_coverage_errors": [],
+  "record_validation_errors": [],
+  "tool_closure_errors": [],
+  "old_protocol_residue": [],
+  "source_split_leakage": 0,
+  "target_split_leakage": 0
+}

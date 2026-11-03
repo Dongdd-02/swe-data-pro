@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "records": 4976,
+  "split_counts": {
+    "train": 4474,
+    "validation": 251,
+    "test": 251
+  },
+  "unique_model_ids": 4976,
+  "unique_provenance_ids": 4976,
+  "existing_records": 2251,
+  "added_records": 2725,
+  "group_counts": {
+    "extended_review_requires_replay": 1630,
+    "extended_filter_excluded_requires_replay": 1095
+  },
+  "base_value_mismatches": 0,
+  "batch4_value_mismatches": 0,
+  "message_hash_mismatches": 0,
+  "errors": [],
+  "production_admitted": false,
+  "independent_repository_replay": "not_run",
+  "tokenizer_gate": "not_run",
+  "license_review": "pending_record_level_repository_review",
+  "repository_disjoint_final_split": false
+}

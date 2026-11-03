@@ -1,0 +1,113 @@
+{
+  "status": "candidate_needs_semantic_review_and_replay",
+  "source": "D:\\code_codex\\deliverables\\swe_sft_4976_zh_staging_20261101",
+  "output": "D:\\code_codex\\deliverables\\swe_sft_4976_zh_failure_repair_focused_v2_20261103",
+  "stats": {
+    "records": 4976,
+    "explicit_failure_records": 3725,
+    "untouched": 3004,
+    "removed_exploration_actions": 6726,
+    "summary_messages": 2159,
+    "messages_before": 278348,
+    "messages_after": 267055,
+    "observation_chars_before": 340304372,
+    "observation_chars_after": 318805727
+  },
+  "pilot_examples": [
+    {
+      "record_id": "swe_smith_core_train_0000_99fc93d5f457",
+      "removed": 5,
+      "summary_count": 1
+    },
+    {
+      "record_id": "swe_smith_core_train_0035_4845827af367",
+      "removed": 7,
+      "summary_count": 1
+    },
+    {
+      "record_id": "swe_smith_core_train_0093_629027b12070",
+      "removed": 4,
+      "summary_count": 1
+    },
+    {
+      "record_id": "swe_smith_core_train_0116_9ed7de1ff92d",
+      "removed": 1,
+      "summary_count": 1
+    },
+    {
+      "record_id": "swe_smith_core_train_0216_23c9d71b5d36",
+      "removed": 1,
+      "summary_count": 1
+    },
+    {
+      "record_id": "swe_smith_core_train_0236_68b4fc4855cf",
+      "removed": 3,
+      "summary_count": 1
+    },
+    {
+      "record_id": "swe_smith_core_train_0295_24f2003b85b0",
+      "removed": 2,
+      "summary_count": 1
+    },
+    {
+      "record_id": "swe_smith_core_train_0300_412ae01e3f77",
+      "removed": 1,
+      "summary_count": 1
+    }
+  ],
+  "method": "Only explicit-failure records are considered. Every recognized failure, Edit/Write and verification action is retained with full original output. Intermediate redundant exploration is grouped with verbatim unique numbered code lines; a large abbreviated Read is omitted only if a later same-file targeted Read occurs in the same phase. All omitted actions are in a lossless sidecar.",
+  "important_limitations": [
+    "Assistant reasoning and non-numbered text from removed exploratory reads may be absent in the model-visible summary.",
+    "Classifiers are heuristic; human review of removed segments and repository replay are required before Pangu SFT use.",
+    "Records without an explicit detectable failure are left unchanged, not certified clean or suitable.",
+    "Large abbreviated source previews can contain distinct lines not repeated by the targeted Read; they require semantic human review before Pangu use."
+  ],
+  "formal_sft_approved": false,
+  "independent_audit": {
+    "status": "structural_audit_only_semantic_replay_pending",
+    "counts": {
+      "records": 4976,
+      "removed_actions": 6726,
+      "summaries": 2159,
+      "ordinary_numbered_code_lines_checked": 180676,
+      "source_content_chars": 340304372,
+      "candidate_content_chars": 318805727,
+      "unknown_failure_records_untouched": 1251,
+      "large_previews_replaced": 1731,
+      "large_preview_chars": 20025831,
+      "large_preview_numbered_lines": 527803
+    },
+    "message_content_reduction_pct": 6.3175,
+    "removed_action_reduction_pct": 5.2261,
+    "audit_errors": 0,
+    "error_examples": [],
+    "large_preview_examples": [
+      {
+        "record_id": "swe_smith_core_train_0035_4845827af367",
+        "action_index_zero_based": 2,
+        "path": "/testbed/tornado/web.py"
+      },
+      {
+        "record_id": "swe_smith_core_train_0093_629027b12070",
+        "action_index_zero_based": 2,
+        "path": "/testbed/pydantic/type_adapter.py"
+      },
+      {
+        "record_id": "swe_smith_core_train_0093_629027b12070",
+        "action_index_zero_based": 7,
+        "path": "/testbed/pydantic/_internal/_typing_extra.py"
+      },
+      {
+        "record_id": "swe_smith_core_train_0116_9ed7de1ff92d",
+        "action_index_zero_based": 2,
+        "path": "/testbed/voluptuous/validators.py"
+      },
+      {
+        "record_id": "swe_smith_core_train_0216_23c9d71b5d36",
+        "action_index_zero_based": 1,
+        "path": "/testbed/pyquery/pyquery.py"
+      }
+    ],
+    "limitation": "Large abbreviated previews may contain source context not repeated in the targeted read; this candidate needs manual semantic review and repository replay, not formal Pangu SFT approval."
+  }
+}

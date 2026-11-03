@@ -1,0 +1,17 @@
+[
+  {
+    "record_id": "swe_smith_core_train_0310_afcad0bcf9cc",
+    "review": "大文件泛读仅在同阶段后续精确读同文件时省略；首次 ImportError、其后不同 git 错误、所有 Edit/Write 与最后成功运行仍原文保留。后续 Edit old_string 不得仅出现在预览。",
+    "scope": "人工抽查，非仓库replay"
+  },
+  {
+    "record_id": "swe_smith_core_train_0949_2c5bc70540bc",
+    "review": "MultiIndex.isin 的大文件泛读被4115起精确读取替代；导入失败、Cython 构建错误、后续安装阻塞均保留，不误称代码修复已测试通过。",
+    "scope": "人工抽查，非仓库replay"
+  },
+  {
+    "record_id": "swe_smith_core_train_1001_1dba24721da2",
+    "review": "generate.py 大文件泛读被局部精确读取替代；CLI/main/generate 编辑、首次失败、回撤尝试与最终成功结果保留。",
+    "scope": "人工抽查，非仓库replay"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "expected_records": 4976,
+  "split_counts": {
+    "train": 4474,
+    "validation": 251,
+    "test": 251
+  },
+  "records": 4976,
+  "errors": [],
+  "xml_marker_count": 0,
+  "physical_path_pattern_count_in_model_fields": 863145,
+  "approx_tokens_char_div_4": {
+    "median": 19172,
+    "p95": 55109,
+    "over_8192": 4678,
+    "over_32768": 1020,
+    "over_65536": 123,
+    "max": 113022
+  },
+  "tokenizer_gate": "not_run_no_target_pangu_tokenizer_or_chat_template_configured",
+  "replay_gate": "not_run"
+}

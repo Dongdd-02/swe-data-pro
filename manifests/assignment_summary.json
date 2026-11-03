@@ -1,0 +1,18 @@
+{
+  "records": 4976,
+  "parts": {
+    "part_A": {
+      "train.jsonl": 2290,
+      "validation.jsonl": 115,
+      "test.jsonl": 120
+    },
+    "part_B": {
+      "train.jsonl": 2184,
+      "validation.jsonl": 136,
+      "test.jsonl": 131
+    }
+  },
+  "rule": "part_A iff int.from_bytes(SHA256(record_id)[:8], big) % 2 == 0; otherwise part_B",
+  "source": "D:\\code_codex\\deliverables\\swe_sft_4976_zh_staging_20261101",
+  "focused_v2": "D:\\code_codex\\deliverables\\swe_sft_4976_zh_failure_repair_focused_v2_20261103"
+}

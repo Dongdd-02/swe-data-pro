@@ -1,0 +1,9 @@
+{
+  "input": "sft_vlm\\pulsar_recovery_sft\\artifacts\\swe_smith_pangu_pulsar_zh_staging\\rescreen_batch4_extended_translation\\translation_quality_retry_results.jsonl",
+  "output": "sft_vlm\\pulsar_recovery_sft\\artifacts\\swe_smith_pangu_pulsar_zh_staging\\rescreen_batch4_extended_translation\\translation_quality_retry_repaired_exact.jsonl",
+  "rows": 78,
+  "repaired": 20,
+  "unresolved": [],
+  "unresolved_count": 0,
+  "status": "passed"
+}
