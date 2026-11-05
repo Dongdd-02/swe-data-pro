@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 594,
+      "sha256": "c1bd227d0c91902ad1c71a3d5e5bc5599d804d1493eaa98ab80e807745164817"
+    },
+    {
+      "path": "REMOVED_DIAGNOSTIC_SUMMARIES.jsonl.gz",
+      "bytes": 2468305,
+      "sha256": "072e9750ef46d7360f90218eaa38e01b064d1164015d74642389363cd1f7cf69"
+    },
+    {
+      "path": "test.jsonl",
+      "bytes": 20306154,
+      "sha256": "9f09aed10c07e3d01bd430b0ac4df1f9b42000f2ef014b57cb2bde80085f5eb8"
+    },
+    {
+      "path": "train.jsonl",
+      "bytes": 381449813,
+      "sha256": "21d7f6cd9ed2a09cee11e82a51b4cbed01f9b7f6ced265041ebd342fa545e78f"
+    },
+    {
+      "path": "TRANSLATION_REPAIR_REPORT.json",
+      "bytes": 591,
+      "sha256": "84c148079097501d35afabf735fc6cfc3d8e6526324f75759033461fb411973e"
+    },
+    {
+      "path": "validation.jsonl",
+      "bytes": 20619406,
+      "sha256": "774cc2f0b7c59b2880405a3330977248ed7dde0bee5f920597b2abfc5bba1038"
+    }
+  ]
+}

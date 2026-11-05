@@ -1,0 +1,23 @@
+{
+  "version": "baseline_zh_v1",
+  "targets": {
+    "part_A/original": {
+      "records": 2525,
+      "already_chinese": 66487,
+      "translated": 4977,
+      "changed_messages": 4977
+    },
+    "part_B/original": {
+      "records": 2451,
+      "already_chinese": 63159,
+      "translated": 5803,
+      "changed_messages": 5803
+    }
+  },
+  "untranslated": [],
+  "review_state": "requires_human_translation_review",
+  "replay_status": "not_run",
+  "sft_approved": false,
+  "english_residue": 0,
+  "untranslated_count": 0
+}

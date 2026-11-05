@@ -1,0 +1,15 @@
+{
+  "source_records": 2525,
+  "source_target_actions": 3603,
+  "target_records": 2145,
+  "candidate_records": 2525,
+  "completed_records": 2525,
+  "errors": 0,
+  "changed_records": 1978,
+  "removed_actions": 2877,
+  "replay_status": "not_run",
+  "review_state": "pending_human_signoff",
+  "prompt_version": "full-part-a-unreferenced-v1",
+  "machine_gate_version": "unreferenced-gate-v2",
+  "workers": 4
+}

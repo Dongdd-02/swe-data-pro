@@ -1,0 +1,32 @@
+{
+  "version": "v2_views_zh_v1",
+  "targets": {
+    "part_A/focused_v2": {
+      "records": 2525,
+      "actions": 62039,
+      "removed_summaries": 1122,
+      "translated": 4818
+    },
+    "part_A/full_unreferenced_revisit": {
+      "records": 2525,
+      "actions": 59162,
+      "removed_summaries": 1122,
+      "translated": 4631
+    },
+    "part_B/focused_v2": {
+      "records": 2451,
+      "actions": 59935,
+      "removed_summaries": 1037,
+      "translated": 5522
+    },
+    "part_B/full_unreferenced_revisit": {
+      "records": 2451,
+      "actions": 57213,
+      "removed_summaries": 1037,
+      "translated": 5300
+    }
+  },
+  "verification": "passed",
+  "summary_archive": "translation_repair_v1/removed_diagnostic_summary_messages.jsonl.gz",
+  "note": "translated/removed counts recomputed by aligning the pre-edit backup with the published view, summary messages excluded from alignment"
+}

@@ -1,0 +1,16 @@
+{
+  "part": "part_B",
+  "source_records": 2451,
+  "source_target_actions": 3491,
+  "target_records": 2073,
+  "candidate_records": 2451,
+  "completed_records": 2451,
+  "errors": 0,
+  "changed_records": 1867,
+  "removed_actions": 2722,
+  "replay_status": "not_run",
+  "review_state": "pending_human_signoff",
+  "prompt_version": "full-part-a-unreferenced-v1",
+  "machine_gate_version": "unreferenced-gate-v2",
+  "workers": 1
+}

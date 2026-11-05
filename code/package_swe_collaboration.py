@@ -24,6 +24,9 @@ CODE_FILES = (
     "audit_swe_failure_repair_focused.py",
     "package_swe_collaboration.py",
     "verify_swe_collaboration.py",
+    "full_part_a_unreferenced.py",
+    "audit_full_part_a_unreferenced.py",
+    "build_part_b_human_review_sample.py",
 )
 
 

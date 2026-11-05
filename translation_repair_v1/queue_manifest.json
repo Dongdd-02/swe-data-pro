@@ -1,0 +1,12 @@
+{
+  "queue_items": 5173,
+  "occurrences": 7030,
+  "source_counts": {
+    "summary_messages": 2159,
+    "english_assistant_messages": 5590,
+    "english_system_messages": 1440
+  },
+  "queue": "translation_queue.jsonl",
+  "mapping": "occurrence_mapping.jsonl",
+  "technical_content_policy": "preserve original technical spans using translate_semantic_queue.py validation"
+}

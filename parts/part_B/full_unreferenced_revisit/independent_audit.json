@@ -1,0 +1,20 @@
+{
+  "status": "structural_audit_passed_pending_human_review",
+  "source_records": 2451,
+  "selected_actions": 3491,
+  "decisions": 2451,
+  "candidates": 2451,
+  "stats": {
+    "records": 2451,
+    "target_actions": 3491,
+    "actions_before": 59935,
+    "actions_after": 57213,
+    "messages_before": 131204,
+    "messages_after": 125760,
+    "removed_actions": 2722,
+    "changed_records": 1867
+  },
+  "error_count": 0,
+  "examples": [],
+  "limits": "Semantic no-reference and narrative-completeness judgments come from a strong model, not independent repository replay. Changed candidates require human review; no correctness or success certification."
+}

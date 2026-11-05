@@ -1,0 +1,33 @@
+{
+  "version": "cleaned_candidate_v1",
+  "translation_provenance": {
+    "historical_cache": 301,
+    "gpt-5.6-luna": 78,
+    "deepseek-v4.1-flash-1017": 6208
+  },
+  "rejected_models": [
+    "gpt-6-sol"
+  ],
+  "translation_items": 6682,
+  "applied_translation_items": 6587,
+  "preserved_chinese_dominant_false_positives": 95,
+  "removed_summary_messages": 2159,
+  "parts": {
+    "part_A": {
+      "records": 2525,
+      "removed_summary_messages": 1122,
+      "translated_system_messages": 705,
+      "translated_assistant_messages": 3926
+    },
+    "part_B": {
+      "records": 2451,
+      "removed_summary_messages": 1037,
+      "translated_system_messages": 735,
+      "translated_assistant_messages": 4565
+    }
+  },
+  "review_state": "requires_human_translation_review",
+  "replay_status": "not_run",
+  "sft_approved": false,
+  "removed_messages_sidecar": "translation_repair_v1/removed_diagnostic_summary_messages.jsonl.gz"
+}

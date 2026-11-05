@@ -1,0 +1,23 @@
+{
+  "records": 4976,
+  "split_counts": {
+    "train.jsonl": 4474,
+    "validation.jsonl": 251,
+    "test.jsonl": 251
+  },
+  "source_records_by_part": {
+    "part_A": 2525,
+    "part_B": 2451
+  },
+  "removed_standalone_summary_messages": 2159,
+  "translated_message_occurrences": {
+    "system": 1440,
+    "assistant": 8491
+  },
+  "unique_translations": 6587,
+  "review_state": "translation_requires_human_review",
+  "replay_status": "not_run",
+  "sft_approved": false,
+  "ordering": "assignment.source_line within split",
+  "archive": "sft_merged_cleaned_zh_v1.zip"
+}
